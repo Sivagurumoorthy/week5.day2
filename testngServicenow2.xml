@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" verbose = "5">
+<parameter name = "url" value="https://dev103165.service-now.com/nav_to.do?"></parameter>
+<parameter name = "userName" value="admin"></parameter>
+<parameter name = "password" value="HzXgolWSI41p"></parameter>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="week5.day2.Deleteservicenow"/>
+      <class name="week5.day2.CreateServicenow"/>
+      <class name="week5.day2.UpdateServicenow"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
